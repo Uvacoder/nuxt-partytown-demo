@@ -10,7 +10,7 @@ export default ({ app: { head } }) => {
             j.async = true
             j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
             f.parentNode.insertBefore(j, f)
-      })(window, document, 'script', 'dataLayer', 'GTM-T6WVW7H')();
+      })(window, document, 'script', 'dataLayer', 'GTM-T6WVW7H');
       `,
   })
 }

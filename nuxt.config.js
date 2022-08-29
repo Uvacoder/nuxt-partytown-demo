@@ -38,7 +38,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', '~/modules/partytown/index.js'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
