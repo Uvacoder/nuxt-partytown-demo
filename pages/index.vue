@@ -13,26 +13,35 @@
       ></div>
     </div>
     <section>
-      <div class="bg-gray-400 h-screen p-2 flex items-center justify-center">
-        <div class="w-32 h-32 relative mb-4">
-          <div
-            class="group w-full h-full rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer"
-          >
-            <img
-              src="https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png"
-              alt="lovely avatar"
-              class="object-cover object-center w-full h-full visible group-hover:hidden"
-            />
+      <div class="bg-gray-400 h-screen p-2">
+        <div class="flex items-center justify-center">
+          <div class="w-32 h-32 relative mb-4">
+            <div
+              class="group w-full h-full rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer"
+            >
+              <img
+                src="https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png"
+                alt="lovely avatar"
+                class="object-cover object-center w-full h-full visible group-hover:hidden"
+              />
+            </div>
+          </div>
+          <div class="w-full ml-10">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
           </div>
         </div>
-        <div class="w-full ml-10">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+        <div class="flex justify-center items-center m-10">
+          <a
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            href="/test"
+            >Test GTM</a
+          >
         </div>
       </div>
     </section>
@@ -76,11 +85,6 @@
 
 <script lang="ts">
 import Vue from 'vue'
-// Implement gtag its free
-// Implement partytown
-// Implement no partytown branch
-// Implement ligthouse ci
-// Add custom very slow script to move to partytown
 
 export default Vue.extend({
   name: 'IndexPage',
