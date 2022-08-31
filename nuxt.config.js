@@ -24,9 +24,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    // { src: './plugins/gtm.js' }, { src: './plugins/dummy.js' }
-  ],
+  plugins: [{ src: './plugins/gtm.js' }, { src: './plugins/dummy.js' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

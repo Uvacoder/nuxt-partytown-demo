@@ -42,6 +42,7 @@
           <a
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             href="#"
+            @click.prevent="dataLayerTest"
             >Test GTM</a
           >
         </div>
@@ -92,6 +93,14 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
+  methods: {
+    dataLayerTest() {
+      ;(window as any).dataLayer?.push({
+        event: 'Access from the app',
+        parameter1: 'Pushing event to GTM!',
+      })
+    },
+  },
 })
 </script>
 

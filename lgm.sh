@@ -4,7 +4,7 @@
 text=""
 search="http://localhost:8000"
 
-for i in 1 2 3
+for i in 1 2
 do
     date=$(date +%F_%H-%M-%S)
     folder="performance-report"
