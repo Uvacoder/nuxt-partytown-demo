@@ -1,5 +1,6 @@
 export default ({ app: { head } }) => {
   head.script.push({
+    // type: 'text/partytown',
     innerHTML: `
         (function (w, d, s, l, i) {
             w[l] = w[l] || []

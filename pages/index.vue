@@ -3,7 +3,9 @@
     <div
       class="hero bg-gray-400 w-full h-screen flex items-center justify-center flex-col"
     >
-      <h1 class="block z-10 text-gray-100 font-bold text-6xl mt-2">Hotelzzz</h1>
+      <h1 class="block z-10 text-gray-100 font-bold text-6xl mt-2">
+        Hotel<sup>zzz</sup>
+      </h1>
       <h3 class="text-gray-200 z-10 font-semibold text-xl mt-2">
         A website to connect hosts with travellers!
       </h3>
@@ -13,7 +15,7 @@
       ></div>
     </div>
     <section>
-      <div class="bg-gray-400 h-screen p-2">
+      <div class="bg-gray-400 p-12">
         <div class="flex items-center justify-center">
           <div class="w-32 h-32 relative mb-4">
             <div
@@ -36,10 +38,10 @@
             culpa qui officia deserunt mollit anim id est laborum."
           </div>
         </div>
-        <div class="flex justify-center items-center m-10">
+        <div class="flex justify-center items-center">
           <a
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-            href="/test"
+            href="#"
             >Test GTM</a
           >
         </div>
@@ -47,8 +49,10 @@
     </section>
     <section class="relative">
       <div class="mid-hero h-80 flex justify-start p-25 items-center">
-        <h2 class="text-gray-100 z-10 text-4xl font-sans font-bold">
-          All Doogzz welcome
+        <h2
+          class="text-gray-100 z-10 text-4xl font-sans font-bold w-full text-center"
+        >
+          woof!
         </h2>
       </div>
 
@@ -57,7 +61,7 @@
       ></div>
     </section>
     <footer
-      class="p-4 bg-white rounded-lg shadow md:flex md:items-center h-56 md:justify-between md:p-6 dark:bg-gray-800"
+      class="p-2 bg-white rounded-lg shadow md:flex md:items-center h-56 md:justify-between md:p-6 dark:bg-gray-800"
     >
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >© 2022 <a href="#" class="hover:underline">Netguru™</a>. All Rights
@@ -103,7 +107,7 @@ export default Vue.extend({
 .mid-hero {
   background-image: url('https://www.dropbox.com/s/yhlh3q2cqij8svw/gustavo-zambelli-C3KGBq4dg2Y-unsplash.jpg?raw=1');
   background-size: cover;
-  background-position: center center;
+  background-position: 0 183px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

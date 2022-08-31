@@ -4,9 +4,7 @@ export default ({ app: { head } }) => {
   head.script.push({
     innerHTML: partytownSnippet({
       lib: '/~partytown/',
-      forward: [
-        // 'dataLayer.push',
-      ],
+      // forward: ['dataLayer.push'],
     }),
     charset: 'utf-8',
   })

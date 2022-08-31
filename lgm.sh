@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/usr/local/bin/npm
 
-text="p_test"
+text=""
 search="http://localhost:8000"
 
 for i in 1 2 3
