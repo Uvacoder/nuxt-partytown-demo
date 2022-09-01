@@ -3,10 +3,14 @@ export default ({ app: { head } }) => {
     // type: 'text/partytown',
     innerHTML: `
         (function(){
-          for (let index = 0; index < 25000; index++) {
-            console.log('Loading slow script....');
+          var counter = 0;
+          var done = Date.now() + 500;
+          console.log('%c[Custom][ ' + new Date().toUTCString() + ' ] Start loading big file...',"color: #11b556; font-size: 20px" )
+          while (Date.now() < done) {
+              // Busy wait....
           }
-          console.log('Script loaded!');
+          ++counter;
+          console.log('%c[Custom][ ' + new Date().toUTCString() + ' ] File loaded!',"color: #11b556; font-size: 20px" )
         })();
       `,
   })
